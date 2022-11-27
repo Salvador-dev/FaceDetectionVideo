@@ -51,5 +51,5 @@ Promise.all([
       faceapi.draw.drawFaceLandmarks(canvas, resizedDetections)
       faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
 
-    }, 500)
+    }, 100)
   })
