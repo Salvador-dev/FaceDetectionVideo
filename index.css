@@ -8,5 +8,7 @@ body {
 
 canvas {
     position: absolute;
+    Top: 0;
+    Left: 0;
 }
 
