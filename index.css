@@ -6,9 +6,34 @@ body {
     
 }
 
+video{
+    width: 500px;
+    height: 500px;
+}
+
 canvas {
     position: absolute;
     Top: 0;
     Left: 0;
+}
+
+button {
+    display: block;
+    margin: 2em;
+    width: 25%;
+    background: #48e;
+    border-radius: 3px;
+    padding: 1em;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    button {
+        width: 100%;
+    }
+    
 }
 
