@@ -118,7 +118,7 @@ async function recognizeFaces(){
 function loadLabeledImages() {
     
     // El array con las etiquetas de los rostros a reconocer (guardados en la carpeta 'images', cada uno con su respectiva etiqueta de identificacion como nombre)
-    const labels =['ross', 'rachel', 'chandler', 'monica', 'phoebe', 'kanye', 'joey', 'salvador', 'albert'];
+    const labels =['ross', 'rachel', 'chandler', 'monica', 'phoebe', 'kanye', 'joey', 'salvador', 'albert', 'jhonattan'];
 
     // Se recorre el array de las etiquetas y se compara cada etiqueta con el nombre identificativo de cada imagen de rostro
     return Promise.all(
