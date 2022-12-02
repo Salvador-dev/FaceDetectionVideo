@@ -102,7 +102,7 @@ async function recognizeFaces(){
                     const drawBox = new faceapi.draw.DrawBox(box, { label: result.toString() })
                     drawBox.draw(canvas)
                 })
-            }, 100)
+            }, 500)
 
 
         })
