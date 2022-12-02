@@ -125,7 +125,7 @@ function loadLabeledImages() {
 
         labels.map(async label => {
 
-            const imgUrl = `images/${label}.jpg`;
+            const imgUrl = `./images/${label}.jpg`;
             const img = await faceapi.fetchImage(imgUrl);
             
             // Se guarda la informacion detectada en el rostro de la imagen
